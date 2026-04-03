@@ -334,6 +334,13 @@ footer {
     }
 }
 
+.resume-entry:hover,
+.education-entry:hover,
+.skills-category:hover
+{
+    box-shadow: 0 0 18px rgba(219, 205, 52, 0.35);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     header h1 {
