@@ -376,3 +376,30 @@ nav ul li a.active
         align-items: flex-start;
     }
 }
+
+.dissertation-link {
+    margin-top: 8px;
+}
+
+.dissertation-link a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.dissertation-link a:hover {
+    color: #fdf3c2;
+}
+
+.pdf-viewer {
+    margin-top: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.pdf-viewer iframe {
+    border: none;
+    border-radius: 8px;
+}
